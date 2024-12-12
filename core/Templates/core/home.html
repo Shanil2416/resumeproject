@@ -1,0 +1,40 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %} 
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/image/Shanil.png' %}" alt="ProfilePic" class="img-thumbnail" width="250" height="150">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height:2rem;">
+            <p style="text-indent: 80px;">
+                I am <b class="text-warning">Shanil Solapure</b>. I belong to Shirwal, Satara, and currently live in Vagdaon BK Pune. 
+                I completed my MCA from MIT College in Kothrud, Pune.
+            </p>
+            <p>
+                Talking about my strengths, I am a quick learner and hardworking individual with a positive mindset. 
+                During my 6-month internship, I completed one project titled 
+                <b class="text-warning">"Fraud Detection System for Financial Transactions."</b> This project utilized technologies 
+                like Python and Tkinter. It enhanced my understanding of fraud detection mechanisms and allowed me to 
+                apply my technical skills effectively.
+            </p>
+            <p>
+                Now, talking about my technical skills, I excel in front-end development and have a strong command of 
+                programming languages such as <b class="text-warning">Python</b> and <b class="text-warning">MySQL</b>.
+            </p>
+            <p>
+                Regarding my achievements, the first is successfully completing my MCA degree and gaining hands-on 
+                experience through my internship project.
+            </p>
+            <p>
+                That's all about me. <b>THANK YOU!</b>
+            </p>
+        </div>
+    </div>
+    <div class="text-center">    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+
+</div>
+{% endblock content %}

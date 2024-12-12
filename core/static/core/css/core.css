@@ -1,0 +1,39 @@
+.st-font {
+    font-family: "Satisfy";
+}
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    min-height: 100%;
+}
+
+.i-color {
+    color: chartreuse !important; 
+}
+
+.ss-color {
+    color: silver !important; 
+}
+
+.custom-link {
+    color: whitesmoke; 
+    background-color: transparent; 
+    text-decoration: none;
+    padding: 10px 10px; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.custom-link:hover {
+    color: black; 
+    background-color: #e9cd79; 
+    border-radius: 5px;
+}
+
+.custom-link.active {
+    color: black; 
+    background-color: #ffc107; 
+    font-weight: bold;
+}
